@@ -1,0 +1,47 @@
+/** pull navbar on top of here --Navigation --**/
+#navbar {
+
+	z-index: 1;
+
+}
+
+/** Hero **/
+
+#hero {
+
+	background-image: url(./images/nguyenunsplash.jpg);
+	background-size: cover;
+	background-position: center bottom;
+}
+
+#hero h2 {
+
+	padding-top: 168px;
+}
+
+/** media query to increase height of Hero **/
+
+@media (min-width: 1200px) {
+
+	#hero {
+
+		height: 100vh;
+		min-height: 650px;
+
+	}
+}
+
+
+
+/** message inside hero **/
+
+#message {
+
+	bottom: 0;
+	right: 0;
+}
+
+#message a, #name a {
+
+	text-decoration: none;
+}
