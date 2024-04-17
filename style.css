@@ -45,3 +45,63 @@
 
 	text-decoration: none;
 }
+
+/** aspectRatioBox for pictures **/
+
+.aspectRatioBox {
+
+	padding-top: calc(2 / 3 * 100%);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/** aspectRatioBox for Matsumoto slider **/
+
+.matsumoto-pic-1 {
+
+	background-image: url(./images/masaaki-komori-unsplash.jpg);
+	/*images from https://picsum.photos/, random photots are generated each time */
+	padding-top: calc(2 / 3.5 * 100%);
+	/* portrait aspect ratio */
+	background-size: cover;
+	background-position: center;
+}
+
+.matsumoto-pic-2 {
+
+	background-image: url(./images/filiz-elaerts-unsplash.jpg);
+	/*images from https://picsum.photos/, random photots are generated each time */
+	padding-top: calc(2 / 3.5 * 100%);
+	/* portrait aspect ratio */
+	background-size: cover;
+	background-position: center;
+}
+
+.matsumoto-pic-3 {
+
+	background-image: url(./images/mitsuo-komoriya-unsplash.jpg);
+	/*images from https://picsum.photos/, random photots are generated each time */
+	padding-top: calc(2 / 3.5 * 100%);
+	/* portrait aspect ratio */
+	background-size: cover;
+	background-position: center;
+}
+
+@media (min-width: 540px) {
+
+	.inner {
+
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.inner h4  {
+
+		max-width: 200px;
+	}
+}
+
+
